@@ -43,11 +43,19 @@ table caption {
     font-family: sans-serif;
     font-weight: bolder;
 }
+div {
+    width: 100%;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-collapse: separate;
+}
 table {
     width: 100%;
     margin-right: 0 auto;
     margin-left: 0 auto;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     text-align: center;
     background-color: beige;
     font-family: sans-serif;
@@ -96,13 +104,6 @@ form {
 input[type=text]:focus {
     border: 1px solid #555;
 }
-.two {
-    width: 32%;
-    margin: 81px;
-    margin-top: 10px;
-    margin-right: 0px;
-    font-size: 1.1em;
-}
 .form1 {
     display: none;
     margin-bottom: 16px;
@@ -113,17 +114,64 @@ section {
 button:hover {
     background-color: grey;
 }
-button {
+#mainBtn {
+    clear: both;
     cursor: pointer;
-    margin-right: 30px;
-    margin-top: 10px;
+    margin-left: 220px;
+    margin-top: -20px;
     padding: 10px 30px 10px 30px;
     font-family: sans-serif;
-    font-size: 1.3em;
-    background-color: dimgrey;
+    font-size: 1.5em;
+    background-color: #6782d0;
     color: white;
     border: 1px solid transparent;
     border-radius: 3px;
+    float: left;
+    display: block;
+}
+#smallBtn, #addSemester {
+    float: left;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 36px;
+    margin-top: -63px;
+    margin-bottom: 18px;
+    padding: 5px 25px 5px 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 0.9em;
+    background-color: transparent;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+#smallBtn:hover, #addSemester:hover {
+    color: grey;   
+}
+#addSemester {
+    float: left;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 47px;
+    margin-top: -66px;
+    margin-bottom: 18px;
+    padding: 5px 25px 5px 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 0.9em;
+    background-color: transparent;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+button:focus {
+    outline:0;
+}
+#smallBtn:hover {
+    color: lightgrey;
+}
+#mainBtn:hover {
+    background-color: #8b9dd3;
 }
 #submitBtn {
     width: 50px;
