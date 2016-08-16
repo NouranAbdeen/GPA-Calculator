@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 4em;
+    color: darkgrey;
+    text-align: center;
+    margin-bottom: 80px;
+}
+a {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    margin-right: 16px;
+    color: crimson;
+}
+a:hover {
+    color: black;
+    font-weight: bolder;
+}
+#table2 th {
+    width: 33%;
+}
+#table2 input {
+    width: 50px;
+    align-self: center;
+}
+#semester {
+    margin-left: 35px;
+    margin-right: 108px;
+}
+body, main {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+table caption {
+    font-size: 2em;
+    margin: 20px 0 20px 0;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+table {
+    width: 100%;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    font-family: sans-serif;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    margin-bottom: 30px;
+}
+td {
+  padding: 10px 0;
+}
+table th {
+    color: dimgrey;
+    font-size: 1.5em;
+    margin: 100px 0 10px 0;
+}
+th .hours {
+    margin-left: 32px;
+}
+table tr { 
+    padding: 20px ;
+    margin: 30px 0 30px 0;
+}
+table td input, select, table td {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+.hour {
+    width: 100%;
+}
+.three {
+    width: 28%;
+    margin: 16px;
+    font-size: 1.1em;
+    margin-bottom: 39px;
+}
+form input[type=text] {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+}
+form {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+.two {
+    width: 32%;
+    margin: 81px;
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: 1.1em;
+}
+.form1 {
+    display: none;
+    margin-bottom: 16px;
+}
+section {
+    padding-left: 17px;
+}
+button:hover {
+    background-color: grey;
+}
+button {
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    background-color: dimgrey;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+#submitBtn {
+    width: 50px;
+    margin: 81px;
+    margin-top: 20px;
+    margin-right: 0px;
+    font-size: 1.1em;   
+}

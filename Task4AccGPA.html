@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-us">
+        <title>accumulated GPA</title>
+        <meta charset="utf-8" content="GPAcalculator">
+        <link href="Task4styles.css" rel="stylesheet">  
+        <script src="jcoco.js"></script>
+        <script src="Task4script.js"></script>
+    </head>
+    <body role="main">
+        <main>
+            <table id="table2">
+                <caption>Accumulated GPA</caption>
+                <tbody>
+                <tr>
+                    <th>Semesters</th>
+                    <th>Hours</th>
+                    <th>semester GPA</th>
+                </tr>                  
+                </tbody>
+            </table>
+            <button role="button" name="addSemester" class="three">Add Semester</button>
+            <button role="button" name="calculateCGPA" class="three">Calculate GPA</button>
+            <button role="button" name="predict" class="three">Future GPA</button>
+            <section>
+                <form class="form1">
+                    Enter target cumulative GPA:<br>
+                    <input type="text" id="cgpa1"><br>
+                    Enter the number of hours of next semester:<br>
+                    <input type="text" id="cgpa2">
+                </form>
+                <button name="submitBtn" class="form1">Submit</button>
+            </section>
+        </main>
+    </body>
+</html>
