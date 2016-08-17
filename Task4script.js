@@ -4,12 +4,11 @@ function addRow(table) {
             $("#table1").append(rowDetails()); 
         }    
     else {
-            $("#table2").append('<tr>'+'<td>Semester '+$("#table2 tr").length+'</td>'+'<td>'+'<input type="text" class="semHours">'+'</td>'+'<td>'+'<input type="text" class="semGPA">'+'</td>'+'</tr>');
+            $("#table2").append('<tr><td>Semester '+$("#table2 tr").length+'</td><td><input type="text" class="semHours"></td><td><input type="text" class="semGPA"></td></tr>');
     }
 }
-
 function rowDetails() {
-    return '<tr class="tableRows"><td><input type="text" name="course-name" class="courses">'+'</td>'+'<td><input type="text" name="hours" class="hour">'+'</td>'+'<td>'+'<select class="grades">'+'<option value="0" class="single">Select</option>'+'<option value="4" class="single">A</option>'+'<option value="3.7" class="single">A-</option>'+'<option value="3" class="single">B</option>'+'<option value="2.7" class="single">B-</option>'+'<option value="2" class="single">C</option>'+'<option value="1.7" class="single">C-</option>'+'<option value="1.5" class="single">D</option>'+'<option value="1.7" class="single">D-</option>'+'</select>'+'</td>'+'</tr>';
+    return '<tr class="tableRows"><td><input type="text" name="course-name" class="courses"></td><td><input type="text" name="hours" class="hour"></td><td><select class="grades"><option value="0" class="single">Select</option><option value="4" class="single">A</option><option value="3.7" class="single">A-</option><option value="3" class="single">B</option><option value="2.7" class="single">B-</option><option value="2" class="single">C</option><option value="1.7" class="single">C-</option><option value="1.5" class="single">D</option><option value="1.7" class="single">D-</option></select></td></tr>';
 }
 $(document).ready(function() {
     
@@ -17,8 +16,9 @@ $(document).ready(function() {
     var CGPA=0;
     var totalHours=0;
     
-    for(var i=1 ; i<=5 ; i++)
+    for(var i=1 ; i<=4 ; i++)
             addRow("table1"); 
+    
     for(var i=1 ; i<=2 ; i++)
             addRow("table2");
  

@@ -9,31 +9,35 @@
     </head>
     <body role="main">
         <main>
-            <div id="semesters">
-                <table id="table2">
+           
+                <div id="div1">
+                    <table id="table2">
                     <caption>Accumulated GPA</caption>
                     <tbody>
-                    <tr>
-                        <th>Semesters</th>
-                        <th>Hours</th>
-                        <th>semester GPA</th>
-                    </tr>                  
+                        <tr>
+                            <th>Semesters</th>
+                            <th>Hours</th>
+                            <th>semester GPA</th>
+                        </tr>                  
                     </tbody>
-                </table>
-                <button role="button" name="addSemester" id="addSemester" class="three">+ Add Semester</button>
-            </div>
-            
-            <button role="button" name="calculateCGPA" class="three">Calculate GPA</button>
-            <button role="button" name="predict" class="three">Future GPA</button>
-            <section>
-                <form class="form1">
-                    Enter target cumulative GPA:<br>
-                    <input type="text" id="cgpa1"><br>
-                    Enter the number of hours of next semester:<br>
-                    <input type="text" id="cgpa2">
-                </form>
-                <button name="submitBtn" class="form1">Submit</button>
-            </section>
+                    </table>
+                    <button role="button" name="addSemester" id="addSemester" class="smallBtn">+ Add Semester</button>
+                    <button role="button" name="calculateCGPA" class="three">Calculate GPA</button>
+                </div>
+                
+                <div id="div2">
+                    <h2 id="targetGPA">Calculate Target GPA:</h2><br>
+                        <form class="form1">
+                        Enter target cumulative GPA:<br>
+                        <input type="text" id="cgpa1"><br>
+                        Enter the number of hours of next semester:<br>
+                        <input type="text" id="cgpa2">
+                        </form>
+                    
+                    <button role="button" name="predict" class="three" id="submitBtn">Submit</button>
+                </div>    
+          
+
         </main>
     </body>
 </html>
