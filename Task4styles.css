@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 h1 {
+    margin-top: 50px;
+    height: 80px;
+    background-color: #2c3e50;
     font-family: sans-serif;
-    font-size: 4em;
-    color: darkgrey;
     text-align: center;
-    margin-bottom: 80px;
+    color: white;
+    padding-top: 13px;
+    font-size: 3em;
 }
 #div1, #div2 {
     -webkit-box-shadow: 1px 1px 1px 1px lightgrey;
@@ -34,14 +37,14 @@ a {
     text-decoration: none;
     text-align: center;
     font-size: 2em;
-    margin-right: 16px;
-    color: crimson;
+    margin-left: 25px;
+    color: #2c3e50;
 }
 body {
     background-color: beige;
 }
 a:hover {
-    color: black;
+    color: #778ca0;
     font-weight: bolder;
 }
 #table2 th {
@@ -75,6 +78,10 @@ table caption {
     background-color: #2c3e50;
     padding-bottom: 20px;
     margin-bottom: 30px;
+}
+section {
+    height: 320px;
+    background-color: white;
 }
 div {
     display: block;
@@ -132,6 +139,14 @@ form input[type=text] {
     margin: 8px 20px;
     box-sizing: border-box;
 }
+ul {
+    list-style: none;
+    padding-left: 171px;
+}
+li a {
+    text-align: center;
+    line-height: 2;
+}
 form {
     font-size: 1.2em;
     font-family: sans-serif;
@@ -146,9 +161,6 @@ input[type=text]:focus {
     font-size: 0.9em;
     font-weight: bold;
     color: dimgrey;
-}
-section {
-    padding-left: 17px;
 }
 button:hover {
     background-color: grey;
