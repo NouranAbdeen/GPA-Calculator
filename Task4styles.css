@@ -11,7 +11,7 @@ h1 {
     padding-top: 13px;
     font-size: 3em;
 }
-#div1, #div2 {
+#div1, #div2, section, #courses {
     -webkit-box-shadow: 1px 1px 1px 1px lightgrey;
     -moz-box-shadow: 1px 1px 1px 1px lightgrey;
     box-shadow: 1px 1px 1px 1px lightgrey;
@@ -37,8 +37,11 @@ a {
     text-decoration: none;
     text-align: center;
     font-size: 2em;
-    margin-left: 25px;
+    margin-left: 34px;
     color: #2c3e50;
+}
+#semester {
+    margin-left: 47px;
 }
 body {
     background-color: beige;
@@ -57,10 +60,6 @@ a:hover {
 }
 #courses, #div1 {
     margin-top: 50px;
-}
-#semester {
-    margin-left: 35px;
-    margin-right: 108px;
 }
 body, main {
     width: 70%;

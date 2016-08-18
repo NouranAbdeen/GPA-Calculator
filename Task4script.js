@@ -94,7 +94,7 @@ $(document).ready(function() {
     $(document).on('click', 'button[name="predict"]', function(){
         $(".form1").css("display","block");
     }); 
-    $(document).on('click', 'button[name="submitBtn"]', function(){
+    $(document).on('click', 'button[name="predict"]', function(){
         alert(CGPA);
         if($("#cgpa1").val()=="" || $("#cgpa2").val()=="" || CGPA==0)
             alert("Complete the information!");
