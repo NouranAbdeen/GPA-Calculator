@@ -69,6 +69,7 @@ body, main {
 table caption {
     height: 80px;
     width: 100%;
+
     font-size: 3em;
     padding-top: 12px;
     font-family: sans-serif;
@@ -95,6 +96,7 @@ div {
     box-shadow: 10px solid black;   
 }
 table {   
+    width: 100%;
     margin-right: 0 auto;
     margin-left: 0 auto;
     text-align: left;
@@ -102,7 +104,6 @@ table {
     font-family: sans-serif;
     border-collapse: separate;
     border-spacing: 90px 0;
-    display: block;
     background-color: white;
 }
 table tr th, td {
@@ -183,6 +184,9 @@ button:hover {
 }
 #mainBtn, #submitBtn {
     margin-bottom: 80px;
+}
+tbody {
+    width: 100%;
 }
 .smallBtn {
     cursor: pointer;
