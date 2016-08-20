@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-us">
+        <title>Matching Score</title>
+        <meta charset="utf-8" content="GPAcalculator">
+        <link href="styles.css" rel="stylesheet">  
+        <script src="jcoco.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body role="main">
+        <main>
+            <section>
+                <h1>Job Requirements</h1>
+                <form role="form">
+                    Latitude of job location:<br>
+                    <input type="text" name="jobLatit"><br>
+                    Longitude of job location:<br>
+                    <input type="text" name="jobLong"><br>
+                    
+                    <br>Required Age:<br>
+                    Upper limit:<br>
+                    <input type="text" name="upperAgeLimit"><br>
+                    Lower limit:<br>
+                    <input type="text" name="lowerAgeLimit"><br>
+                    Importance:<br>
+                    <input type="radio" name="importance" value="1" checked> Must have<br>
+                    <input type="radio" name="importance" value="2"> Important<br>
+                    <input type="radio" name="importance" value="3"> Nice to have<br>
+                    
+                    <br>Required Gender:<br>
+                    <input type="radio" name="gender" value="1" checked>Must be male<br>
+                    <input type="radio" name="gender" value="2"> Must be female<br>
+                    <input type="radio" name="gender" value="3"> Preferred male<br>
+                    <input type="radio" name="gender" value="4"> Preferred female<br>
+                    <input type="radio" name="gender" value="5"> Not required<br>
+
+                </form> 
+              
+                <h1>Jobseeker Details</h1>
+                <form role="form">
+                    Latitude of jobseeker's location:<br>
+                    <input type="text" name="jobLatit"><br>
+                    Longitude of jobseeker's location:<br>
+                    <input type="text" name="jobLong"><br>
+                    
+                    <br>Jobseeker Age:<br>
+                    <input type="text" name="seekerAge"><br>
+                    
+                    <br>Jobseeker Gender:<br>
+                    <input type="radio" name="seekerGender" value="1" checked> Male<br>
+                    <input type="radio" name="seekerGender" value="2"> Female
+                </form> 
+                <button role="button" name="submitBtn">Submit</button>
+            </section>            
+        </main>
+    </body>
+</html>
